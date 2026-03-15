@@ -1,58 +1,59 @@
-# YZM212 Makine Ogrenmesi - 2. Laboratuvar Odevi
+# YZM212 Makine Öğrenmesi - 2. Laboratuvar Ödevi
 
-## MLE ile Akilli Sehir Planlamasi (Trafik Yogunlugu Analizi)
+## MLE ile Akıllı Şehir Planlaması (Trafik Yoğunluğu Analizi)
 
-Bu odevde bir ana caddeden bir dakikada gecen arac sayilarini Poisson dagilimi ile modelledim. Parametre olan $\lambda$ degerini hem teorik turetimle hem de Python ile sayisal olarak hesapladim.
+Bu ödevde bir ana caddeden bir dakikada geçen araç sayılarını Poisson dağılımı ile modelledim. Parametre olan $\lambda$ değerini hem teorik türetimle hem de Python ile sayısal olarak hesapladım.
 
 ## Problem
 
-Amaç, eldeki gozlemlerden caddenin tipik trafik seviyesini temsil eden Poisson parametresini bulmaktir.
+Amaç, eldeki gözlemlerden caddenin tipik trafik seviyesini temsil eden Poisson parametresini bulmaktır.
 
 ## Veri
 
-Kullanilan gozlemler:
+Kullanılan gözlemler:
 
 - [12, 15, 10, 8, 14, 11, 13, 16, 9, 12, 11, 14, 10, 15]
 
-Bu veri, secilen zaman dilimlerinde bir dakikada gecen arac sayilarini ifade etmektedir.
+Bu veri, seçilen zaman dilimlerinde bir dakikada geçen araç sayılarını ifade etmektedir.
 
-## Yontem
+## Yöntem
 
-1. Poisson PMF uzerinden likelihood ve log-likelihood ifadelerini yazdim.
-2. Teorik olarak Poisson icin MLE'nin $\hat{\lambda}=\bar{k}$ oldugunu gosterdim.
-3. Negatif log-likelihood fonksiyonunu kurup `scipy.optimize.minimize` ile sayisal cozum aldim.
-4. PMF ve histogrami ayni grafikte karsilastirdim.
-5. Veriye 200 degerini ekleyip outlier etkisini ayrica inceledim.
+1. Poisson PMF üzerinden likelihood ve log-likelihood ifadelerini yazdım.
+2. Teorik olarak Poisson için MLE'nin $\hat{\lambda}=\bar{k}$ olduğunu gösterdim.
+3. Negatif log-likelihood fonksiyonunu kurup `scipy.optimize.minimize` ile sayısal çözüm aldım.
+4. PMF ve histogramı aynı grafikte karşılaştırdım.
+5. Veriye 200 değerini ekleyip outlier etkisini ayrıca inceledim.
 
-## Sonuclar
+## Sonuçlar
 
 - Analitik MLE: $\hat{\lambda}_{ana} \approx 12.142857$
-- Sayisal MLE: $\hat{\lambda}_{num} \approx 12.142862$
-- Iki sonuc arasindaki fark cok kucuktur.
+- Sayısal MLE: $\hat{\lambda}_{num} \approx 12.142862$
+- İki sonuç arasındaki fark çok küçüktür.
 
 Outlier eklendikten sonra:
 
-- Yeni MLE belirgin bicimde artmistir.
-- Artis orani yaklasik %103 seviyesine ulasmistir.
+- Yeni MLE belirgin biçimde artmıştır.
+- Artış oranı yaklaşık %103 seviyesine ulaşmıştır.
 
-Bu durum, ortalamaya dayali yontemlerin aykiri degerlerden hizli etkilendigini acikca gosteriyor.
+Bu durum, ortalamaya dayalı yöntemlerin aykırı değerlerden hızlı etkilendiğini açıkça göstermektedir.
 
-## Yorum / Tartisma
+## Yorum / Tartışma
 
-Model, verinin yogun oldugu aralikta genel olarak iyi bir uyum veriyor. Yine de tek bir hatali kayit bile parametreyi ciddi sekilde degistirebildigi icin su onlemler gerekli:
+Model, verinin yoğun olduğu aralıkta genel olarak iyi bir uyum veriyor. Yine de tek bir hatalı kayıt bile parametreyi ciddi şekilde değiştirebildiği için şu önlemler gereklidir:
 
-1. Veri girisinde temel aralik kontrolleri yapilmalidir.
-2. Aykiri degerler raporlanip temizleme kurali uygulanmalidir.
-3. Uzun donemli veriyle model periyodik olarak guncellenmelidir.
+1. Veri girişinde temel aralık kontrolleri yapılmalıdır.
+2. Aykırı değerler raporlanıp temizleme kuralı uygulanmalıdır.
+3. Uzun dönemli veriyle model periyodik olarak güncellenmelidir.
 
-## Proje Dosyalari
+## Proje Dosyaları
 
-- `homework2_mle_ozgun_taslak.ipynb`: Notebook cozum dosyasi
-- `ODEV2_CALISMA_PLANI.md`: Adim adim calisma plani
-- `assignment_extracted.txt`: PDF'den metin cikarimi
+- `homework2_mle_ozgun_taslak.ipynb`: Notebook çözüm dosyası
+- `RAPOR.pdf`: Rapor dosyası
+- `figures/`: Grafik çıktıları
 
-## Kullanilan Kutuphaneler
+## Kullanılan Kütüphaneler
 
 - numpy
 - scipy
 - matplotlib
+
