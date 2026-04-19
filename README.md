@@ -7,9 +7,11 @@ Bu repo, ders kapsamindaki odevlerin tek noktadan gorulebilmesi icin duzenlenmis
 1. [HMM-Speech-Recognition](HMM-Speech-Recognition)
 2. [Odev2-MLE-Trafik-Analizi](Odev2-MLE-Trafik-Analizi)
 3. [EigenVectorsValues](3.%20EigenVectorsValues)
+4. [Galaksi-Parlaklik-Analizi](4. Galaksi-Parlaklik-Analizi)
 
 ## Hizli Erisim
 
 - HMM odevi icin: [HMM-Speech-Recognition/README.md](HMM-Speech-Recognition/README.md)
 - MLE odevi icin: [Odev2-MLE-Trafik-Analizi/README.md](Odev2-MLE-Trafik-Analizi/README.md)
 - Lab 3 (Özdeğerler) raporu icin: [3. EigenVectorsValues/Readme.MD](3.%20EigenVectorsValues/Readme.MD)
+- Galaksi Analizi odevi icin: [4. Galaksi-Parlaklik-Analizi/README.md](4. Galaksi-Parlaklik-Analizi/README.md)
