@@ -1,7 +1,7 @@
 # YZM212 Makine Öğrenmesi Ödevi - Kontrol Rehberi (README)
 
-## Diger Odev Baglantisi
-- Bu repodaki diger odevi dogrudan acmak icin: [Odev2-MLE-Trafik-Analizi](../Odev2-MLE-Trafik-Analizi)
+## Diğer Ödev Bağlantısı
+- Bu repodaki diğer ödevi doğrudan açmak için: [Odev2-MLE-Trafik-Analizi](../Odev2-MLE-Trafik-Analizi)
 
 ## 1. BÖLÜM: Teorik Temeller (Viterbi Hesaplaması)
 **Soru:** [High, Low] dizisi için Viterbi adımlarını hesaplayınız.

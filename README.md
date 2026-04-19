@@ -1,17 +1,17 @@
-# YZM212 Makine Ogrenmesi - Odevler
+# YZM212 Makine Öğrenmesi - Ödevler
 
-Bu repo, ders kapsamindaki odevlerin tek noktadan gorulebilmesi icin duzenlenmistir.
+Bu repo, ders kapsamındaki ödevlerin tek noktadan görülebilmesi için düzenlenmiştir.
 
-## Odev Listesi
+## Ödev Listesi
 
 1. [HMM-Speech-Recognition](HMM-Speech-Recognition)
 2. [Odev2-MLE-Trafik-Analizi](Odev2-MLE-Trafik-Analizi)
 3. [EigenVectorsValues](3.%20EigenVectorsValues)
-4. [Galaksi-Parlaklik-Analizi](4. Galaksi-Parlaklik-Analizi)
+4. [4. Galaksi-Parlaklik-Analizi](4.%20Galaksi-Parlaklik-Analizi)
 
-## Hizli Erisim
+## Hızlı Erişim
 
-- HMM odevi icin: [HMM-Speech-Recognition/README.md](HMM-Speech-Recognition/README.md)
-- MLE odevi icin: [Odev2-MLE-Trafik-Analizi/README.md](Odev2-MLE-Trafik-Analizi/README.md)
-- Lab 3 (Özdeğerler) raporu icin: [3. EigenVectorsValues/Readme.MD](3.%20EigenVectorsValues/Readme.MD)
-- Galaksi Analizi odevi icin: [4. Galaksi-Parlaklik-Analizi/README.md](4. Galaksi-Parlaklik-Analizi/README.md)
+- HMM ödevi için: [HMM-Speech-Recognition/README.md](HMM-Speech-Recognition/README.md)
+- MLE ödevi için: [Odev2-MLE-Trafik-Analizi/README.md](Odev2-MLE-Trafik-Analizi/README.md)
+- Lab 3 (Özdeğerler) raporu için: [3. EigenVectorsValues/Readme.MD](3.%20EigenVectorsValues/Readme.MD)
+- Galaksi Analizi ödevi için: [4. Galaksi-Parlaklik-Analizi/README.md](4.%20Galaksi-Parlaklik-Analizi/README.md)
